@@ -167,25 +167,27 @@ json
 
 GET /powers/:id
 
+https://superheroes-89eh.onrender.com/powers/4
+
 Returns a specific power by id.
 
 Response
 
 json
 
-{
-  "id": 1,
-  "name": "super strength",
-  "description": "gives the wielder super-human strengths"
-}
+    {
+    "id": 4,
+    "name": "Telekinesis",
+    "description": "The power to move objects with the mind."
+    }
 
 If the power does not exist:
 
 json
 
-{
-  "error": "Power not found"
-}
+    {
+     "error": "Power not found"
+    }
 
 PATCH /powers/:id
 
