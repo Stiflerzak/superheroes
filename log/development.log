@@ -567,3 +567,42 @@ No serializer found for resource: #<Power id: 1, name: "Super Strength", descrip
 Completed 200 OK in 14ms (Views: 9.7ms | ActiveRecord: 0.4ms | Allocations: 7518)
 
 
+Started GET "/powers" for 127.0.0.1 at 2023-03-25 11:04:43 +0300
+Processing by PowersController#index as HTML
+  [1m[36mPower Load (0.1ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  ↳ app/controllers/powers_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (12.8ms)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 1.2ms | Allocations: 9212)
+
+
+  
+NoMethodError (undefined method `descriprition' for #<Power:0x00007f5af0085370>
+Did you mean?  description
+               description?
+               description=):
+  
+app/controllers/powers_controller.rb:4:in `index'
+Started GET "/powers" for 127.0.0.1 at 2023-03-25 11:05:02 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PowersController#index as HTML
+  [1m[36mPower Load (1.0ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  ↳ app/controllers/powers_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (16.41ms)
+Completed 500 Internal Server Error in 63ms (ActiveRecord: 1.6ms | Allocations: 43962)
+
+
+  
+NoMethodError (undefined method `descriprition' for #<Power:0x00007f0b00ed7878>
+Did you mean?  description
+               description?
+               description=):
+  
+app/controllers/powers_controller.rb:4:in `index'
+Started GET "/powers" for 127.0.0.1 at 2023-03-25 11:05:55 +0300
+Processing by PowersController#index as HTML
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  ↳ app/controllers/powers_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (7.19ms)
+Completed 200 OK in 26ms (Views: 17.2ms | ActiveRecord: 1.6ms | Allocations: 7557)
+
+
