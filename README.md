@@ -13,14 +13,14 @@ In order to use this repository you will need the following:
 This application has been built with the following tools:
 
 - **Ruby on Rails**
-- **SQlite3 `v1.6`**
+- **SQlite3**
 
 
 ## Setup
 This project is hosted, and can be accessed through this link:      
 
 
-- https://pizzas-17gk.onrender.com/
+- https://superheroes-89eh.onrender.com/
         
 
 or,
