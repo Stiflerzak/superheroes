@@ -2257,3 +2257,11 @@ Processing by HeroesController#index as HTML
 Completed 200 OK in 95ms (Views: 85.3ms | ActiveRecord: 4.0ms | Allocations: 75335)
 
 
+Started GET "/hero_powers" for 127.0.0.1 at 2023-03-25 14:39:23 +0300
+Processing by HeroPowersController#index as HTML
+  [1m[36mHeroPower Load (0.2ms)[0m  [1m[34mSELECT "hero_powers".* FROM "hero_powers"[0m
+  ↳ app/controllers/hero_powers_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.41ms)
+Completed 200 OK in 13ms (Views: 11.4ms | ActiveRecord: 0.9ms | Allocations: 16639)
+
+

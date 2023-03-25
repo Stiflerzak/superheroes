@@ -187,47 +187,23 @@ json
 
     {
      "error": "Power not found"
-    }
+}
 
 PATCH /powers/:id
 
+use postman or Thunder client to test it out
+
+https://superheroes-89eh.onrender.com/powers/4
+
 Updates a specific power by id.
 
-Request
 
-json
-
-{
-  "description": "Updated description"
-}
-
-Response
-
-json
-
-{
-  "id": 1,
-  "name": "super strength",
-  "description": "Updated description"
-}
-
-If the power does not exist:
-
-json
-
-{
-  "error": "Power not found"
-}
-
-If the power is not updated successfully (does not pass validations):
-
-json
-
-{
-  "errors": ["validation errors"]
-}
 
 POST /hero_powers
+
+use postman or Thunder client to test it out
+
+http://127.0.0.1:3000/hero_powers
 
 Creates a new HeroPower
 
