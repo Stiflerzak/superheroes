@@ -131,35 +131,14 @@ https://superheroes-89eh.onrender.com/heroes/2
 
 Returns a specific hero by id, along with their powers.
 
-Response
-
-json
-
-{
-  "id": 1,
-  "name": "Kamala Khan",
-  "super_name": "Ms. Marvel",
-  "powers": [
-    {
-      "id": 1,
-      "name": "super strength",
-      "description": "gives the wielder super-human strengths"
-    },
-    {
-      "id": 2,
-      "name": "flight",
-      "description": "gives the wielder the ability to fly through the skies at supersonic speed"
-    }
-  ]
-}
 
 If the hero does not exist:
 
 json
 
-{
-  "error": "Hero not found"
-}
+    {
+     "error": "Hero not found"
+    }
 
 GET /powers
 
