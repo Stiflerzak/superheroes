@@ -7,4 +7,5 @@ Rails.application.routes.draw do
 
   #endpoints for powers
   get '/powers', to: 'powers#index'
+  get '/powers/:id', to: 'powers#show'
 end

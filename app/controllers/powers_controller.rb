@@ -10,7 +10,7 @@ class PowersController < ApplicationController
         if power
             render json: power, serializer: PowerSerializer
         else
-            render json: { error: "Hero not found" }, status: :not_found
+            render json: { error: "Power not found" }, status: :not_found
         end
     end
 end
