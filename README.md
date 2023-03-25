@@ -142,24 +142,28 @@ json
 
 GET /powers
 
+https://superheroes-89eh.onrender.com/powers
+
 Returns a list of all powers.
 
 Response
 
 json
 
-[
-  {
+    [
+    {
     "id": 1,
-    "name": "super strength",
-    "description": "gives the wielder super-human strengths"
-  },
-  {
+    "name": "Super Strength",
+    "description": "The ability to lift and move objects beyond human capability."
+    },
+
+    {
     "id": 2,
-    "name": "flight",
-    "description": "gives the wielder the ability to fly through the skies at supersonic speed"
-  }
-]
+    "name": "Flight",
+    "description": "The power to propel oneself through the air."
+    },
+    ]
+
 
 GET /powers/:id
 
