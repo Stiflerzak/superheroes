@@ -412,3 +412,110 @@ Processing by HeroesController#index as HTML
 Completed 200 OK in 10ms (Views: 6.7ms | ActiveRecord: 0.8ms | Allocations: 6912)
 
 
+Started GET "/heroes" for 127.0.0.1 at 2023-03-25 10:23:30 +0300
+Processing by HeroesController#index as HTML
+Completed 500 Internal Server Error in 7ms (Allocations: 4307)
+
+
+  
+NameError (uninitialized constant HeroesController::HeroSerializer):
+  
+app/controllers/heroes_controller.rb:4:in `index'
+Started GET "/heroes" for 127.0.0.1 at 2023-03-25 10:24:23 +0300
+Processing by HeroesController#index as HTML
+Completed 500 Internal Server Error in 5ms (Allocations: 1757)
+
+
+  
+NameError (uninitialized constant HeroesController::HeroSerializer):
+  
+app/controllers/heroes_controller.rb:4:in `index'
+Started GET "/heroes" for 127.0.0.1 at 2023-03-25 10:24:24 +0300
+Processing by HeroesController#index as HTML
+Completed 500 Internal Server Error in 5ms (Allocations: 1757)
+
+
+  
+NameError (uninitialized constant HeroesController::HeroSerializer):
+  
+app/controllers/heroes_controller.rb:4:in `index'
+Started GET "/heroes" for 127.0.0.1 at 2023-03-25 10:24:24 +0300
+Processing by HeroesController#index as HTML
+Completed 500 Internal Server Error in 5ms (Allocations: 1757)
+
+
+  
+NameError (uninitialized constant HeroesController::HeroSerializer):
+  
+app/controllers/heroes_controller.rb:4:in `index'
+Started GET "/heroes" for 127.0.0.1 at 2023-03-25 10:24:25 +0300
+Processing by HeroesController#index as HTML
+Completed 500 Internal Server Error in 6ms (Allocations: 1757)
+
+
+  
+NameError (uninitialized constant HeroesController::HeroSerializer):
+  
+app/controllers/heroes_controller.rb:4:in `index'
+Started GET "/heroes" for 127.0.0.1 at 2023-03-25 10:26:50 +0300
+Processing by HeroesController#index as HTML
+Completed 500 Internal Server Error in 11ms (Allocations: 4309)
+
+
+  
+NameError (uninitialized constant HeroesController::HeroSerializer):
+  
+app/controllers/heroes_controller.rb:4:in `index'
+Started GET "/heroes" for 127.0.0.1 at 2023-03-25 10:26:51 +0300
+Processing by HeroesController#index as HTML
+Completed 500 Internal Server Error in 5ms (Allocations: 1757)
+
+
+  
+NameError (uninitialized constant HeroesController::HeroSerializer):
+  
+app/controllers/heroes_controller.rb:4:in `index'
+Started GET "/heroes" for 127.0.0.1 at 2023-03-25 10:26:51 +0300
+Processing by HeroesController#index as HTML
+Completed 500 Internal Server Error in 8ms (Allocations: 1757)
+
+
+  
+NameError (uninitialized constant HeroesController::HeroSerializer):
+  
+app/controllers/heroes_controller.rb:4:in `index'
+Started GET "/heroes" for 127.0.0.1 at 2023-03-25 10:26:51 +0300
+Processing by HeroesController#index as HTML
+Completed 500 Internal Server Error in 7ms (Allocations: 1757)
+
+
+  
+NameError (uninitialized constant HeroesController::HeroSerializer):
+  
+app/controllers/heroes_controller.rb:4:in `index'
+Started GET "/heroes" for 127.0.0.1 at 2023-03-25 10:26:52 +0300
+Processing by HeroesController#index as HTML
+Completed 500 Internal Server Error in 4ms (Allocations: 1757)
+
+
+  
+NameError (uninitialized constant HeroesController::HeroSerializer):
+  
+app/controllers/heroes_controller.rb:4:in `index'
+Started GET "/heroes" for 127.0.0.1 at 2023-03-25 10:29:07 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HeroesController#index as HTML
+  [1m[36mHero Load (0.2ms)[0m  [1m[34mSELECT "heros".* FROM "heros"[0m
+  ↳ app/controllers/heroes_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.93ms)
+Completed 200 OK in 53ms (Views: 24.2ms | ActiveRecord: 0.9ms | Allocations: 42434)
+
+
+Started GET "/heroes" for 127.0.0.1 at 2023-03-25 10:29:08 +0300
+Processing by HeroesController#index as HTML
+  [1m[36mHero Load (0.2ms)[0m  [1m[34mSELECT "heros".* FROM "heros"[0m
+  ↳ app/controllers/heroes_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.7ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.2ms | Allocations: 2652)
+
+
