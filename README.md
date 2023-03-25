@@ -1,6 +1,6 @@
-# Pizzas
-Pizzas is a basic API built with ruby on rails. 
-This is the first Api design and will be optimized for better performance
+# SuperHeroes
+SuperHeroes is a basic API built with ruby on rails. 
+This is a sample API for managing heroes and their powers.
 
 ## Pre-Requisites
 In order to use this repository you will need the following:
