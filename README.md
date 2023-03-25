@@ -1,5 +1,6 @@
 # SuperHeroes
 SuperHeroes is a basic API built with ruby on rails. 
+
 This is a sample API for managing heroes and their powers.
 
 ## Pre-Requisites
@@ -30,6 +31,14 @@ You can setup this repository locally by following this manual
 1. Clone the repository
     
        git clone git@github.com:Stiflerzak/superheroes.git
+
+2. Navigate to the directory
+
+        cd superheroes
+
+3. If you are using VisualBasics
+
+         code .
    
 2. Ensure the ruby gems are setup in your machine
     
