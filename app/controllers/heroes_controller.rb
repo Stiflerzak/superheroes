@@ -1,7 +1,7 @@
 class HeroesController < ApplicationController
     def index
        heroes= Hero.all 
-       render json: heroes, each_serializer: HeroSerializer
+       render json: heroes, status: :ok
     end
 
     def show
