@@ -29,7 +29,7 @@ You can setup this repository locally by following this manual
 
 1. Clone the repository
     
-       git clone git@github.com:Stiflerzak/Pizzas.git
+       git clone git@github.com:Stiflerzak/superheroes.git
    
 2. Ensure the ruby gems are setup in your machine
     
@@ -45,23 +45,30 @@ You can setup this repository locally by following this manual
    
    
 ## Application
+it has Models
 
-The following endpoints/routes are ready for use:
-1. ` https://pizzas-17gk.onrender.com/restaurants/restaurants` - Presents all       restaurants.
-2. ` https://pizzas-17gk.onrender.com/restaurants/restaurants/:id` 
-- Presents a json data of a specific restaurant.
-- It contains nested pizzas data.       
-- It is used to delete a specific record data.
-3. ` https://pizzas-17gk.onrender.com/restaurant_pizzas` - POST into the restaurant_pizzas table.
+Hero
 
-NB
+    id: integer, primary key
+    name: string
+    super_name: string
 
-                You need to test it out using Postman or Thunderclient
+A Hero has many Powers through HeroPower.
+Power
 
+    id: integer, primary key
+    name: string
+    description: string
 
-4. ` https://pizzas-17gk.onrender.com/pizzas` - Presents all included pizzas
+A Power has many Heros through HeroPower.
+HeroPower
 
- 
+    id: integer, primary key
+    hero_id: integer, foreign key to Hero
+    power_id: integer, foreign key to Power
+    strength: string
+
+A HeroPower belongs to a Hero and belongs to a Power.
 
 # Authors
 This project was contributed to by:
